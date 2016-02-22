@@ -1,0 +1,148 @@
+/******* MAIN *******/
+
+body {
+	background-color: 	#fffdf2;
+	font-family: "Roboto";
+	font-weight: 500;
+}
+
+li {
+	list-style: none;
+	text-align: center;
+}
+
+h1, 
+h2 {
+	color: #0a1e0f;
+	font-family: "poiret one";
+}
+
+h1 {
+	font-size: 3em;
+}
+
+a{
+	text-decoration: none;
+	color: #fffdf2;
+}
+a:hover {
+	color: #5b5b5b;
+}
+
+
+/************************************* NAVIGATION ****************************************/
+
+nav {
+	background-color: #0a1e0f;
+}
+
+nav {
+	width: 100%;
+	float: right;
+	text-align: center;
+	margin-top: -35px;
+}
+
+.container li {
+	color: #fffdf2;
+	display: inline-block;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+.navi-6 {
+	margin-left: auto;
+}
+
+.container{
+	display: flex;
+	flex-flow: wrap;
+	justify-content: space-around;
+}
+
+.navi a{
+	font-size: 1em;
+	padding-left: 20px;
+	padding-right: 30px;
+}
+
+
+/************************************* SOCIAL MEDIA ****************************************/
+
+
+.social {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+
+}
+
+.social img {
+	height: 60px;
+	width: 60px;
+}
+
+.social img:hover {
+	height: 70px;
+	width:  70px;
+	opacity: .1;
+}
+
+
+.social {
+	border-top: 10px solid  #0a1e0f;
+	width: 100%;
+}
+
+.social li {
+	padding-top: 20px;
+}
+
+.social a:hover {
+	color: #e5fcfc;
+}
+
+
+
+/************************************* MAIN INFO ****************************************/
+
+.info {
+	width:50%;
+	margin: 0 auto;
+	padding-top: 50px;
+	padding-bottom: 30px;
+	text-align: center;
+}
+
+.info p {
+	text-align: center;
+}
+
+
+
+
+/************************************* FOOTER ****************************************/
+
+.mail p{
+	text-align: center;
+	padding-top: -20px;
+	padding-bottom: 20px;
+}
+
+
+.mail a{
+	color: #0a1e0f;
+}
+
+.mail a:hover {
+	color: 	#e66800;
+}
+
+.main-footer {
+	margin-top: 50px;
+	text-align: center;
+}
+
+.main-footer a {
+	color: #e66800;
+}
+
